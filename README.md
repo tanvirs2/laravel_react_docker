@@ -1,7 +1,7 @@
 
 # User Document
 
-** Laravel React Docker  (News Aggregator) **
+**Laravel React Docker  (News Aggregator)**
 
 ## [Online Demo](https://innoscripta.tanvirpro.com/)
 
