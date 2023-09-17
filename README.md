@@ -65,7 +65,7 @@ Execute the following command:
 
 ### &rarr; `php artisan app:fresh-install`
 
-This command will migrate and seed the database, create a user, and fetch data from three APIs: **'The Guardian'**, **'New York Times'**, and **'NewsAPI.org'**. The fetched articles and news will be populated in the database.
+This command will migrate and seed the database, create a user, and fetch data from three APIs: **The Guardian**, **New York Times**, and **NewsAPI.org**. The fetched articles and news will be populated in the database.
 
 <br/>
 
