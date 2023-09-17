@@ -69,7 +69,7 @@ This command will migrate and seed the database, create a user, and fetch data f
 
 <br/>
 
-####Scheduled task:
+#### Scheduled task:
 
 Afterwards, we need to create another command for the *Scheduled task*, commonly known as a **CRON job**.
 
