@@ -78,9 +78,29 @@ Afterwards, we need to create another command for the *Scheduled task*, commonly
 
 This command will run a **CRON job** that fetches data from the mentioned APIs every day at midnight.
 
+=======================================
 
+<br/><br/><br/>
 
-<br/><br/><br/><br/><br/>
+## Comments about APIs
+
+The News organizations mentioned in the task list are as follows:
+
+1. **The Guardian** - (Doesn't have article image, Web link provided instead of description)
+2. **New York Times**
+3. **NewsAPI.org** - (No category specified)
+
+Not Tested:
+4. **NewsAPI** (Similar to the other one mentioned in the task list)
+
+Tested and Blacklisted (They no longer have developer support):
+5. **OpenNews**
+6. **NewsCred** - (Does not exist)
+7. **BBC News**
+   
+=======================================
+
+<br/><br/><br/>
 
 
 ## User Document
@@ -94,7 +114,7 @@ This command will run a **CRON job** that fetches data from the mentioned APIs e
 
 
 
-**[Online Demo](https://innoscripta.tanvirpro.com/)**
+### [Online Demo](https://innoscripta.tanvirpro.com/)
 
 <<<<<<< HEAD
 ### *`ID: a@b.com`*
