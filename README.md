@@ -77,10 +77,10 @@ Afterwards, we need to create another command for the *Scheduled task*, commonly
 
 This command will run a **CRON job** that fetches data from the mentioned APIs every day at midnight.
 
-***
+
 
 <br/><br/><br/>
-
+***
 ## Comments about APIs
 
 The News organizations mentioned in the task list are as follows:
@@ -96,6 +96,8 @@ Tested and Blacklisted (They no longer have developer support):
 5. **OpenNews**
 6. **NewsCred** - (Does not exist)
 7. **BBC News**
+
+<br/>
 
 ***
 
