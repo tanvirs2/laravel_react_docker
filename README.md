@@ -83,19 +83,19 @@ This command will run a **CRON job** that fetches data from the mentioned APIs e
 ***
 ## Comments about APIs
 
-The News organizations mentioned in the task list are as follows:
+#### The News organizations mentioned in the task list are as follows:
 
-1. **The Guardian** - (Doesn't have article image, Web link provided instead of description) <br/>
-2. **New York Times** <br/>
-3. **NewsAPI.org** - (No category specified) <br/>
+* 1. **The Guardian** - (Doesn't have article image, Web link provided instead of description) <br/>
+* 2. **New York Times** <br/>
+* 3. **NewsAPI.org** - (No category specified) <br/>
 
-Not Tested: <br/>
-4. **NewsAPI** (Similar to the other one mentioned in the task list) <br/>
+#### Not Tested: <br/>
+* 4. **NewsAPI** (Similar to the other one mentioned in the task list) <br/>
 
-Tested and Blacklisted (They no longer have developer support) <br/>
-5. **OpenNews** <br/>
-6. **NewsCred** - (Does not exist) <br/>
-7. **BBC News** 
+#### Tested and Blacklisted (They no longer have developer support) <br/>
+* 5. **OpenNews** <br/>
+* 6. **NewsCred** - (Does not exist) <br/>
+* 7. **BBC News** 
 
 <br/>
 
