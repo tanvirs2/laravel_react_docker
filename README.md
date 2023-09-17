@@ -101,27 +101,20 @@ Tested and Blacklisted (They no longer have developer support):
 
 <br/><br/><br/>
 
+>>>>>>
 
 ## User Document
-=======
-# Laravel React Docker  (News Aggregator)
 
-# Developer document - Installation
-
-# User Document
 
 
 ### [Online Demo](https://innoscripta.tanvirpro.com/)
 
-<<<<<<< HEAD
 ### *`ID: a@b.com`*
 ### *`Password: 123456`*
 
 <br/>
 
-
-**Or click here - https://innoscripta.tanvirpro.com/**
->>>>>>> origin/main
+>**Or copy URL - https://innoscripta.tanvirpro.com/**
 
 
 
