@@ -1,16 +1,14 @@
 # laravel_react_docker
 
-![page-5](https://github.com/tanvirs2/laravel_react_docker/assets/11763906/aa6beafa-cb5f-4a4c-8bb7-be40c55e0a93)
-![page-6](https://github.com/tanvirs2/laravel_react_docker/assets/11763906/11d115ce-5712-44c7-9d9b-850036e9faec)
-![page-7](https://github.com/tanvirs2/laravel_react_docker/assets/11763906/68d2356a-7746-41ec-9bd1-efb2bf38b468)
-![page-8](https://github.com/tanvirs2/laravel_react_docker/assets/11763906/717c67d6-a410-4b4e-a19d-f487d771b240)
-![page-9](https://github.com/tanvirs2/laravel_react_docker/assets/11763906/40671156-4a7b-4110-8393-9d489b7e9af7)
-![page-10](https://github.com/tanvirs2/laravel_react_docker/assets/11763906/db45b833-35af-476e-ab74-c89298dce552)
-![page-11](https://github.com/tanvirs2/laravel_react_docker/assets/11763906/7b9513ea-689d-47bf-833f-6e6052033aa9)
-![page-0](https://github.com/tanvirs2/laravel_react_docker/assets/11763906/7e9655d4-ee3b-4639-8d93-af0b89c2592c)
-![page-1](https://github.com/tanvirs2/laravel_react_docker/assets/11763906/212f408b-c2be-4201-b96a-fe057e980a6f)
-![page-2](https://github.com/tanvirs2/laravel_react_docker/assets/11763906/0dbaedfa-ab8e-45b6-ac34-2e78a45648dc)
-![page-3](https://github.com/tanvirs2/laravel_react_docker/assets/11763906/8779f945-d314-4232-b0cb-b32f519223fc)
-![page-4](https://github.com/tanvirs2/laravel_react_docker/assets/11763906/af9af16e-601b-4db1-8b95-c65409c233f9)
-
-
+![page-0](https://github.com/tanvirs2/laravel_react_docker/assets/11763906/6d306634-31cc-4ea9-a407-8471b25f5ae0)
+![page-1](https://github.com/tanvirs2/laravel_react_docker/assets/11763906/79d12cdc-3b34-4815-9300-aefd43962e5f)
+![page-2](https://github.com/tanvirs2/laravel_react_docker/assets/11763906/29373011-a2e0-455b-adbd-d58162df4f1d)
+![page-3](https://github.com/tanvirs2/laravel_react_docker/assets/11763906/ee379937-dc31-4608-a6ec-d72fd5c2ec04)
+![page-4](https://github.com/tanvirs2/laravel_react_docker/assets/11763906/e6b2c571-411a-445f-afba-479830e1b03e)
+![page-5](https://github.com/tanvirs2/laravel_react_docker/assets/11763906/e300b276-0173-47be-b931-2c65ca28bc31)
+![page-6](https://github.com/tanvirs2/laravel_react_docker/assets/11763906/80bddc7c-2e19-4b1b-ab86-f88e30559d50)
+![page-7](https://github.com/tanvirs2/laravel_react_docker/assets/11763906/8399bbfc-0cb0-4abe-9736-1e606b7f18cc)
+![page-8](https://github.com/tanvirs2/laravel_react_docker/assets/11763906/05c87be0-4de6-4bc1-8fb4-b555b981655a)
+![page-9](https://github.com/tanvirs2/laravel_react_docker/assets/11763906/59cfc1c6-da7d-4693-adae-0aa9e7f7a076)
+![page-10](https://github.com/tanvirs2/laravel_react_docker/assets/11763906/d1a6142e-86a2-45a4-ae4f-cc0a29c4b46d)
+![page-11](https://github.com/tanvirs2/laravel_react_docker/assets/11763906/f68e70c0-faad-475f-b914-264624d2e86e)
