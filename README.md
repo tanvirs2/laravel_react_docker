@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Laravel React Docker  (News Aggregator)
 =======================================
 ***
@@ -83,17 +84,28 @@ This command will run a **CRON job** that fetches data from the mentioned APIs e
 
 
 ## User Document
+=======
+# Laravel React Docker  (News Aggregator)
+
+# Developer document - Installation
+
+# User Document
+>>>>>>> origin/main
 
 
 
 **[Online Demo](https://innoscripta.tanvirpro.com/)**
 
+<<<<<<< HEAD
 ### *`ID: a@b.com`*
 ### *`Password: 123456`*
 
 <br/>
 
 >**Or copy URL - https://innoscripta.tanvirpro.com/**
+=======
+**Or click here - https://innoscripta.tanvirpro.com/**
+>>>>>>> origin/main
 
 
 
