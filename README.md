@@ -1,4 +1,4 @@
-# laravel_react_docker
+# Laravel React Docker (News Aggregator)
 
 # https://innoscripta.tanvirpro.com/
 
