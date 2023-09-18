@@ -80,8 +80,6 @@ The Docker setup is now complete, and I hope you won't encounter any problems.
 
 + ### Now, let's move on to the second part...
 
-*During Docker is up and running, and now you need to run the **"artisan command"** to ensure that the **Laravel** project runs flawlessly.*
-
 >**Note:** The "artisan command" is a built-in command for Laravel.
 
 
