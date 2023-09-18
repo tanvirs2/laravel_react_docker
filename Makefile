@@ -13,4 +13,8 @@ composer-update:
 data:
 	docker exec laravel-app bash -c "php artisan migrate"
 	docker exec laravel-app bash -c "php artisan db:seed"
+react:
+    docker exec reactjs-app bash -c "npm run dev"
+
+
 
