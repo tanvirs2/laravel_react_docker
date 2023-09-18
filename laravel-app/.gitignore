@@ -9,7 +9,7 @@
 /vendor
 =======
 /vendor
-.env
+
 >>>>>>> parent of abfa45e9 (dependency)
 .env.backup
 .env.production
