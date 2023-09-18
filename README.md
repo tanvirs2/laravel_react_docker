@@ -86,7 +86,7 @@ This command will run a **CRON job** that fetches data from the mentioned APIs e
 #### The News organizations mentioned in the task list are as follows:
 
 * 1. **The Guardian** - (Free account doesn't have article image, Web link provided instead of description) <br/>
-* 2. **New York Times** <br/> (Excellent source with comprehensive news coverage)
+* 2. **New York Times** - (Excellent source with comprehensive news coverage) <br/>
 * 3. **NewsAPI.org** - (No category specified) <br/>
 
 #### Not Tested: <br/>
