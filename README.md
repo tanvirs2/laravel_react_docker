@@ -16,79 +16,86 @@ Write command on the command line:
 
 <br/>
 
-Once the cloning process is complete, you will have a folder named **"laravel_react_docker"**
-containing two projects: **"laravel-app"** and **"react-app"**.
+
+Once the cloning process is complete, you will have a folder named **"laravel_react_docker"**  
+containing two projects: **"laravel-app"** and **"react-app"**.  
 Additionally, there will be a file named **"docker-compose.yml"**.
 
-Afterwards, navigate to the root folder **"laravel_react_docker"** in the terminal
+Afterwards, navigate to the root folder **"laravel_react_docker"** in the terminal  
 and execute the following command:
 
 ### &rarr; `docker-compose build --no-cache --force-rm`
 
-Please allow some time for the dependencies to be downloaded and the images to be built.
+Please allow some time for the dependencies to be downloaded and the images to be built.  
 Wait until all dependencies are installed.
 
 Once the build is finished, execute the following command:
 
 **Docker up** &rarr; `docker-compose up -d`
 
+## laravel-app container :
+
 Please type the following commands in Docker to grant access to run **"Artisan commands"** within the Laravel Docker container:
 
 **Make ready the *laravel-app* container for command** &rarr; `docker exec -it laravel-app /bin/bash`
 
-**Laravel dependency** &rarr; `"composer update"`
+**Laravel dependency** &rarr; `composer update`
 
 Now, the terminal is ready for the Artisan command.
 
-**Fetch data** &rarr; `"php artisan app:fresh-install"`
+**Fetch data** &rarr; `php artisan app:fresh-install`
 
 ### &rarr; `php artisan app:fresh-install`
 
 This command will migrate and seed the database, create a user, and fetch data from three APIs: **The Guardian**, **New York Times**, and **NewsAPI.org**. The fetched articles and news will be populated in the database.
 
 
-**Laravel run** &rarr; `"php artisan serve"`
+**Laravel run** &rarr; `php artisan serve`
 
 
-**If want to exit server from *laravel-app* container** &rarr; `"exit"`
+**If want to exit server from *laravel-app* container** &rarr; `exit`
 
-<br/>
+<br/>  
+
+## reactjs-app  container :
+
+> Open a new terminal
 
 **Make ready the *reactjs-app* container for command** &rarr; `docker exec -it reactjs-app /bin/bash`
 
-**React dependency** &rarr; `"npm install"`
+**React dependency** &rarr; `npm install`
 
-**React run** &rarr; `"npm run dev"`
+**React run** &rarr; `npm run dev`
 
-**If want to exit server from *reactjs-app* container** &rarr; `"exit"`
+**If want to exit server from *reactjs-app* container** &rarr; `exit`
 
 
-I hope everything goes smoothly without any issues. However, if you encounter any errors,
+I hope everything goes smoothly without any issues. However, if you encounter any errors,  
 navigate to the individual project folder and execute the necessary commands to build them separately.
 
 If the errors persist, try running each Docker container separately. For example:
 
 ### &rarr; `docker build -t my-container-name .`
 
-After installing the **laravel-app** (Backend), access it at **"localhost:8000"**, 
+After installing the **laravel-app** (Backend), access it at **"localhost:8000"**,   
 and for the **react-app** (Frontend), access it at **"localhost:3000"**.
 
 The Docker setup is now complete, and I hope you won't encounter any problems.
 
-<br/>
+<br/>  
 
 
 + ### Now, let's move on to the second part...
 
->**Note:** The "artisan command" is a built-in command for Laravel.
+>**Note:** The "artisan command" is a built-in command for Laravel.  
 
 
-<br/>
+<br/>  
 
-#### Scheduled task:
+### Scheduled task:
 
 Afterwards, we need to create another command for the *Scheduled task*, commonly known as a **CRON job**.
-
+> Open a new terminal
 ### &rarr; `php artisan schedule:work`
 
 This command will run a **CRON job** that fetches data from the mentioned APIs every day at midnight.
