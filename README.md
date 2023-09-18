@@ -30,15 +30,38 @@ Wait until all dependencies are installed.
 
 Once the build is finished, execute the following command:
 
+**Docker up** &rarr; `docker-compose up -d`
 
-**Laravel dependency** &rarr; `docker exec laravel-app bash -c "composer update"`
+Please type the following commands in Docker to grant access to run **"Artisan commands"** within the Laravel Docker container:
 
-**React dependency** &rarr; `docker exec reactjs-app bash -c "npm install"`
+**Make ready the *laravel-app* container for command** &rarr; `docker exec -it laravel-app /bin/bash`
 
-**Docker up** &rarr; `docker-compose up` or `docker-compose up -d`
+**Laravel dependency** &rarr; `"composer update"`
 
-This command will start the Docker containers. After all the containers are running,
-please wait for the frontend and backend to be ready.
+Now, the terminal is ready for the Artisan command.
+
+**Fetch data** &rarr; `"php artisan app:fresh-install"`
+
+### &rarr; `php artisan app:fresh-install`
+
+This command will migrate and seed the database, create a user, and fetch data from three APIs: **The Guardian**, **New York Times**, and **NewsAPI.org**. The fetched articles and news will be populated in the database.
+
+
+**Laravel run** &rarr; `"php artisan serve"`
+
+
+**If want to exit server from *laravel-app* container** &rarr; `"exit"`
+
+<br/>
+
+**Make ready the *reactjs-app* container for command** &rarr; `docker exec -it reactjs-app /bin/bash`
+
+**React dependency** &rarr; `"npm install"`
+
+**React run** &rarr; `"npm run dev"`
+
+**If want to exit server from *reactjs-app* container** &rarr; `"exit"`
+
 
 I hope everything goes smoothly without any issues. However, if you encounter any errors,
 navigate to the individual project folder and execute the necessary commands to build them separately.
@@ -47,7 +70,8 @@ If the errors persist, try running each Docker container separately. For example
 
 ### &rarr; `docker build -t my-container-name .`
 
-After installing the **laravel-app** (Backend), access it at **"localhost:8000"**, and for the **react-app** (Frontend), access it at **"localhost:3000"**.
+After installing the **laravel-app** (Backend), access it at **"localhost:8000"**, 
+and for the **react-app** (Frontend), access it at **"localhost:3000"**.
 
 The Docker setup is now complete, and I hope you won't encounter any problems.
 
@@ -56,21 +80,10 @@ The Docker setup is now complete, and I hope you won't encounter any problems.
 
 + ### Now, let's move on to the second part...
 
-*Docker is up and running, and now you need to run the **"artisan command"** to ensure that the **Laravel** project runs flawlessly.*
+*During Docker is up and running, and now you need to run the **"artisan command"** to ensure that the **Laravel** project runs flawlessly.*
 
 >**Note:** The "artisan command" is a built-in command for Laravel.
 
-Please type the following command in Docker to grant access to run **"Artisan commands"** within the Laravel Docker container:
-
-### &rarr; `docker exec -it my-container-name /bin/bash`
-
-Now, the terminal is ready for the Artisan command.
-
-Execute the following command:
-
-### &rarr; `php artisan app:fresh-install`
-
-This command will migrate and seed the database, create a user, and fetch data from three APIs: **The Guardian**, **New York Times**, and **NewsAPI.org**. The fetched articles and news will be populated in the database.
 
 <br/>
 
