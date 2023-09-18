@@ -23,14 +23,19 @@ Additionally, there will be a file named **"docker-compose.yml"**.
 Afterwards, navigate to the root folder **"laravel_react_docker"** in the terminal
 and execute the following command:
 
-### &rarr; `docker-compose build`
+### &rarr; `docker-compose build --no-cache --force-rm`
 
 Please allow some time for the dependencies to be downloaded and the images to be built.
 Wait until all dependencies are installed.
 
 Once the build is finished, execute the following command:
 
-### &rarr; `docker-compose up` or `docker-compose up -d`
+
+**Laravel dependency** &rarr; `docker exec laravel-app bash -c "composer update"`
+
+**React dependency** &rarr; `docker exec reactjs-app bash -c "npm install"`
+
+**Docker up** &rarr; `docker-compose up` or `docker-compose up -d`
 
 This command will start the Docker containers. After all the containers are running,
 please wait for the frontend and backend to be ready.

@@ -1,4 +1,5 @@
 FROM php:8.2-fpm
+WORKDIR /var/www/html
 
 
 # Mod Rewrite
@@ -28,17 +29,16 @@ RUN docker-php-ext-configure gd --enable-gd --with-freetype --with-jpeg \
 
 
 # Install Laravel dependencies
-WORKDIR /var/www/html
 
 # Copy the Laravel application to the container
-COPY . /var/www/html
+# COPY . /var/www/html
 
-RUN composer install --no-dev
+# RUN composer install --no-dev
 
 # Expose the Laravel port
-EXPOSE 8000
+# EXPOSE 8000
 
-CMD php artisan serve --host=0.0.0.0 --port=8000
+# CMD php artisan serve --host=0.0.0.0 --port=8000
 
 # Run the Laravel application
 #CMD ["php", "artisan", "serve"]

@@ -4,15 +4,15 @@ FROM node:18
 WORKDIR /app/react
 
 # Copy the ReactJS application to the container
-COPY . /app/react
+# COPY . /app/react
 
 
-RUN npm install
+# RUN npm install
 
 #RUN npm run build
 
 # Expose the ReactJS port
-EXPOSE 3000
+# EXPOSE 3000
 
 # Start the ReactJS application
-CMD ["npm", "run", "dev"]
+# CMD ["npm", "run", "dev"]
