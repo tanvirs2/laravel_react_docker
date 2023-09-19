@@ -36,7 +36,8 @@ RUN docker-php-ext-configure gd --enable-gd --with-freetype --with-jpeg \
 # RUN composer install --no-dev
 
 # Expose the Laravel port
-# EXPOSE 8000
+
+EXPOSE 8000
 
 # CMD php artisan serve --host=0.0.0.0 --port=8000
 
