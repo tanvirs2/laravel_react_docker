@@ -69,6 +69,8 @@ This command will migrate and seed the database, create a user, and fetch data f
 
 **If want to exit server from *reactjs-app* container** &rarr; `exit`
 
+After installing the **laravel-app** (Backend), access it at **"localhost:8000"**,   
+and for the **react-app** (Frontend), access it at **"localhost:3000"**.
 
 I hope everything goes smoothly without any issues. However, if you encounter any errors,  
 navigate to the individual project folder and execute the necessary commands to build them separately.
@@ -76,9 +78,6 @@ navigate to the individual project folder and execute the necessary commands to 
 If the errors persist, try running each Docker container separately. For example:
 
 ### &rarr; `docker build -t my-container-name .`
-
-After installing the **laravel-app** (Backend), access it at **"localhost:8000"**,   
-and for the **react-app** (Frontend), access it at **"localhost:3000"**.
 
 The Docker setup is now complete, and I hope you won't encounter any problems.
 
