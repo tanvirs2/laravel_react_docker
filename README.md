@@ -77,7 +77,7 @@ navigate to the individual project folder and execute the necessary commands to 
 
 If the errors persist, try running each Docker container separately. For example:
 
-### Run the command: `docker build -t my-container-name .`
+### Run the command: `docker build -t <my-container-name> .`
 
 The Docker setup is now complete, and I hope you won't encounter any problems.
 
@@ -114,17 +114,17 @@ This command will execute a **CRON job** that retrieves data from the mentioned 
 
 The News organizations mentioned in the task list are as follows:
 
-1. **The Guardian** - (Free account lacks article image, Web link provided instead of description) <br/>
-2. **New York Times** - (Excellent source with comprehensive news coverage) <br/>
-3. **NewsAPI.org** - (No specified category) <br/>
+ - 1. **The Guardian** - (Free account lacks article image, Web link provided instead of description) <br/>
+ - 2. **New York Times** - (Excellent source with comprehensive news coverage) <br/>
+ - 3. **NewsAPI.org** - (No specified category) <br/>
 
 Not Tested: <br/>
-4. **NewsAPI** (Similar to the other one mentioned in the task list) <br/>
+ - 4. **NewsAPI** (Similar to the other one mentioned in the task list) <br/>
 
 Tested and Blacklisted (They no longer have developer support) <br/>
-5. **OpenNews** <br/>
-6. **NewsCred** - (No longer exists) <br/>
-7. **BBC News**
+ - 5. **OpenNews** <br/>
+ - 6. **NewsCred** - (No longer exists) <br/>
+ - 7. **BBC News**
 
 <br/>
 
