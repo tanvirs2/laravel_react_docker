@@ -50,7 +50,7 @@ Now, the terminal is ready for the Artisan command.
 This command will migrate and seed the database, create a user, and fetch data from three APIs: **The Guardian**, **New York Times**, and **NewsAPI.org**. The fetched articles and news will be populated in the database.
 
 
-**Laravel run** &rarr; `php artisan serve`
+**Laravel run** &rarr; `php artisan serve --host 0.0.0.0`
 
 
 **If want to exit server from *laravel-app* container** &rarr; `exit`

@@ -12,7 +12,7 @@ WORKDIR /app/react
 #RUN npm run build
 
 # Expose the ReactJS port
-EXPOSE 3000
+# EXPOSE 3000
 
 # Start the ReactJS application
 # CMD ["npm", "run", "dev"]
