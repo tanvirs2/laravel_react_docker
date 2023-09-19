@@ -10,7 +10,7 @@ Laravel React Docker  (News Aggregator)
 
 + ### First part
 
-Write command on the command line:
+Write the following command on the command line:
 
 ### &rarr; `git clone https://github.com/tanvirs2/laravel_react_docker.git`
 
@@ -33,11 +33,11 @@ Once the build is finished, execute the following command:
 
 **Docker up** &rarr; `docker-compose up -d`
 
-## laravel-app container :
+## laravel-app container:
 
 Please type the following commands in Docker to grant access to run **"Artisan commands"** within the Laravel Docker container:
 
-**Make ready the *laravel-app* container for command** &rarr; `docker exec -it laravel-app /bin/bash`
+**Make the *laravel-app* container ready for commands** &rarr; `docker exec -it laravel-app /bin/bash`
 
 **Laravel dependency** &rarr; `composer update`
 
@@ -53,71 +53,78 @@ This command will migrate and seed the database, create a user, and fetch data f
 **Laravel run** &rarr; `php artisan serve --host 0.0.0.0`
 
 
-**If want to exit server from *laravel-app* container** &rarr; `exit`
+**If you want to exit the server from the *laravel-app* container** &rarr; `exit`
 
-<br/>  
+<br/>
 
-## reactjs-app  container :
+## ReactJS App Container:
 
-> Open a new terminal
+> Open a new terminal.
 
-**Make ready the *reactjs-app* container for command** &rarr; `docker exec -it reactjs-app /bin/bash`
+To prepare the *reactjs-app* container for commands, run the following command: `docker exec -it reactjs-app /bin/bash`.
 
-**React dependency** &rarr; `npm install`
+Install React dependencies by running: `npm install`.
 
-**React run** &rarr; `npm run dev`
+To run React, use the command: `npm run dev`.
 
-**If want to exit server from *reactjs-app* container** &rarr; `exit`
+If you want to exit the server from the *reactjs-app* container, type: `exit`.
 
-After installing the **laravel-app** (Backend), access it at **"localhost:8000"**,   
-and for the **react-app** (Frontend), access it at **"localhost:3000"**.
+After installing the **laravel-app** (Backend), access it at **"localhost:8000"**.
+For the **react-app** (Frontend), access it at **"localhost:3000"**.
 
-I hope everything goes smoothly without any issues. However, if you encounter any errors,  
+I hope everything goes smoothly without any issues. However, if you encounter any errors,
 navigate to the individual project folder and execute the necessary commands to build them separately.
 
 If the errors persist, try running each Docker container separately. For example:
 
-### &rarr; `docker build -t my-container-name .`
+### Run the command: `docker build -t my-container-name .`
 
 The Docker setup is now complete, and I hope you won't encounter any problems.
 
+<br/>
+
+### Now, let's move on to the second part...
+
+>**Note:** The "artisan command" is a built-in command for Laravel.
+
+
 <br/>  
 
 
-+ ### Now, let's move on to the second part...
-
->**Note:** The "artisan command" is a built-in command for Laravel.  
 
 
-<br/>  
+
 
 ### Scheduled task:
 
-Afterwards, we need to create another command for the *Scheduled task*, commonly known as a **CRON job**.
+Next, we need to create another command for the *Scheduled task*, commonly known as a **CRON job**.
 > Open a new terminal
+
+**Once again, prepare the *laravel-app* container for the command** &rarr; `docker exec -it laravel-app /bin/bash`
+
 ### &rarr; `php artisan schedule:work`
 
-This command will run a **CRON job** that fetches data from the mentioned APIs every day at midnight.
+This command will execute a **CRON job** that retrieves data from the mentioned APIs every day at midnight.
 
 
 
 <br/><br/><br/>
-***
-## Comments about APIs
 
-#### The News organizations mentioned in the task list are as follows:
+## Comments on APIs
 
-* 1. **The Guardian** - (Free account doesn't have article image, Web link provided instead of description) <br/>
-* 2. **New York Times** - (Excellent source with comprehensive news coverage) <br/>
-* 3. **NewsAPI.org** - (No category specified) <br/>
+The News organizations mentioned in the task list are as follows:
 
-#### Not Tested: <br/>
-* 4. **NewsAPI** (Similar to the other one mentioned in the task list) <br/>
+1. **The Guardian** - (Free account lacks article image, Web link provided instead of description) <br/>
+2. **New York Times** - (Excellent source with comprehensive news coverage) <br/>
+3. **NewsAPI.org** - (No specified category) <br/>
 
-#### Tested and Blacklisted (They no longer have developer support) <br/>
-* 5. **OpenNews** <br/>
-* 6. **NewsCred** - (No longer exists) <br/>
-* 7. **BBC News** 
+Not Tested: <br/>
+4. **NewsAPI** (Similar to the other one mentioned in the task list) <br/>
+
+Tested and Blacklisted (They no longer have developer support) <br/>
+5. **OpenNews** <br/>
+6. **NewsCred** - (No longer exists) <br/>
+7. **BBC News**
 
 <br/>
 
@@ -139,8 +146,6 @@ This command will run a **CRON job** that fetches data from the mentioned APIs e
 <br/>
 
 >**Or copy URL - https://innoscripta.tanvirpro.com/**
-
-
 
 ![page-0](https://github.com/tanvirs2/laravel_react_docker/assets/11763906/32a6b3a6-6c9c-4480-b855-5dbb4cf8c2c6)
 ![page-1](https://github.com/tanvirs2/laravel_react_docker/assets/11763906/7e3664b3-f8a6-4cc6-a598-4db19e1ea25d)
