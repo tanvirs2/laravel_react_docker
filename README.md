@@ -51,7 +51,6 @@ Now, the terminal is ready for the Artisan command.
 
 → `php artisan app:fresh-install`
  
-→ `php artisan app:fresh-install`
  
 This command will migrate and seed the database, create a user, and fetch data from three APIs: **The Guardian**, **New York Times**, and **NewsAPI.org**. The fetched articles and news will be populated in the database.
  
