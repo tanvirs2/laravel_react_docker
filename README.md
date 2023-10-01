@@ -30,6 +30,7 @@ Wait until all dependencies are installed.
 Once the build is finished, execute the following command:
  
 **Docker up** 
+
 → `docker-compose up -d`
  
 ## laravel-app container:
@@ -37,14 +38,17 @@ Once the build is finished, execute the following command:
 Please type the following commands in Docker to grant access to run **"Artisan commands"** within the Laravel Docker container:
  
 **Make the *laravel-app* container ready for commands** 
+
 → `docker exec -it laravel-app /bin/bash`
  
 **Laravel dependency** 
+
 → `composer update`
  
 Now, the terminal is ready for the Artisan command.
  
 **Fetch data** 
+
 → `php artisan app:fresh-install`
  
 → `php artisan app:fresh-install`
@@ -53,10 +57,12 @@ This command will migrate and seed the database, create a user, and fetch data f
  
  
 **Laravel run** 
+
 → `php artisan serve --host 0.0.0.0`
  
  
 **If you want to exit the server from the *laravel-app* container** 
+
 → `exit`
  
 <br/>
