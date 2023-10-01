@@ -12,7 +12,7 @@ Laravel React Docker (News Aggregator)
  
 Write the following command on the command line:
  
-### → `git `
+### `git `
  
 <br/>
  
