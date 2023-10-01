@@ -10,7 +10,7 @@
  
 Write the following command on the command line:
  
-** `git clone https://github.com/tanvirs2/laravel_react_docker.git` **
+ → `git clone https://github.com/tanvirs2/laravel_react_docker.git`
  
 <br/>
  
@@ -22,36 +22,42 @@ Additionally, there will be a file named **"docker-compose.yml"**.
 Afterwards, navigate to the root folder **"laravel_react_docker"** in the terminal 
 and execute the following command:
  
-### → `docker-compose build --no-cache --force-rm`
+→ `docker-compose build --no-cache --force-rm`
  
 Please allow some time for the dependencies to be downloaded and the images to be built. 
 Wait until all dependencies are installed.
  
 Once the build is finished, execute the following command:
  
-**Docker up** → `docker-compose up -d`
+**Docker up** 
+→ `docker-compose up -d`
  
 ## laravel-app container:
  
 Please type the following commands in Docker to grant access to run **"Artisan commands"** within the Laravel Docker container:
  
-**Make the *laravel-app* container ready for commands** → `docker exec -it laravel-app /bin/bash`
+**Make the *laravel-app* container ready for commands** 
+→ `docker exec -it laravel-app /bin/bash`
  
-**Laravel dependency** → `composer update`
+**Laravel dependency** 
+→ `composer update`
  
 Now, the terminal is ready for the Artisan command.
  
-**Fetch data** → `php artisan app:fresh-install`
+**Fetch data** 
+→ `php artisan app:fresh-install`
  
-### → `php artisan app:fresh-install`
+→ `php artisan app:fresh-install`
  
 This command will migrate and seed the database, create a user, and fetch data from three APIs: **The Guardian**, **New York Times**, and **NewsAPI.org**. The fetched articles and news will be populated in the database.
  
  
-**Laravel run** → `php artisan serve --host 0.0.0.0`
+**Laravel run** 
+→ `php artisan serve --host 0.0.0.0`
  
  
-**If you want to exit the server from the *laravel-app* container** → `exit`
+**If you want to exit the server from the *laravel-app* container** 
+→ `exit`
  
 <br/>
  
