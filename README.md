@@ -1,10 +1,10 @@
-Laravel React Docker (News Aggregator)
-=======================================
-***
- 
 ![image](https://github.com/tanvirs2/laravel_react_docker/assets/11763906/4d89fafb-0ad5-4638-9ddc-141a47a1f7da)
  
 ## Developer document - Installation guide
+
+```sh
+ssss
+```
  
 <br/>
  
@@ -62,5 +62,3 @@ This command will migrate and seed the database, create a user, and fetch data f
 > Open a new terminal.
  
 To prepare the *reactjs-app* container for commands, run the following command: `docker exec -it reactjs-app /bin/bash`.
- 
-Install React dependencies by running: `npm install`.
