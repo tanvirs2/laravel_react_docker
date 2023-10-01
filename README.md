@@ -2,9 +2,7 @@
  
 ## Developer document - Installation guide
 
-```sh
-ssss
-```
+
  
 <br/>
  
@@ -12,7 +10,7 @@ ssss
  
 Write the following command on the command line:
  
-### → `git clone https://github.com/tanvirs2/laravel_react_docker.git`
+** `git clone https://github.com/tanvirs2/laravel_react_docker.git` **
  
 <br/>
  
