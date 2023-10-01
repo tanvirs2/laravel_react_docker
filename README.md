@@ -12,7 +12,7 @@ Laravel React Docker (News Aggregator)
  
 Write the following command on the command line:
  
-### → `git clone github.com/tanvirs2/laravel_react_docker.git`
+### → `git clone laravel_react_docker.git`
  
 <br/>
  
